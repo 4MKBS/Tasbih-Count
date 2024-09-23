@@ -1,0 +1,36 @@
+body {
+	background: #27322a;
+}
+
+h1 {
+	color: rgb(0, 244, 102);
+}
+
+#main {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.card {
+	text-align: center;
+}
+
+button {
+	color: #8400ff;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: COurier;
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid #26ff00;
+	border-radius: 5px;
+	transition: 0.4s;
+}
+
+button:hover {
+	background-color: #26ff00;
+	font-weight: 600;
+	transition: 0.4s;
+}
